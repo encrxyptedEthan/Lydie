@@ -36,7 +36,7 @@ return function(props)
 		ZIndex = props.ZIndex or 1,
 		Visible = props.Visible or true,
 
-		AnchorPoint = Vector2.new(0.5, 0.5),
+		AnchorPoint = props.AnchorPoint or Vector2.new(0.5, 0.5),
 		Position = props.Position or UDim2.fromScale(0.5, 0.5),
 		Size = props.Size or UDim2.fromOffset(700, 700),
 
